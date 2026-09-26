@@ -979,8 +979,11 @@ apps/dashboard/CMakeFiles/aviation.dir/main.cpp.o: /Users/anujgupta/Qt_Gui_App/A
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/ptrcheck.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h \
+  /Users/anujgupta/Qt_Gui_App/Aviation_Proj/libs/telemetry_core/include/telemetry/AircraftTelemetry.h
 
+
+/Users/anujgupta/Qt_Gui_App/Aviation_Proj/libs/telemetry_core/include/telemetry/AircraftTelemetry.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h:
 

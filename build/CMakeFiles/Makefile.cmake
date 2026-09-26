@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/anujgupta/Qt_Gui_App/Aviation_Proj/apps/dashboard/CMakeLists.txt"
   "CMakeFiles/4.4.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.0/CMakeSystem.cmake"
+  "/Users/anujgupta/Qt_Gui_App/Aviation_Proj/libs/telemetry_core/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -46,6 +47,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "apps/dashboard/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "libs/telemetry_core/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

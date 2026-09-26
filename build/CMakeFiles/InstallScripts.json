@@ -2,7 +2,8 @@
 	"InstallScripts" : 
 	[
 		"/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/cmake_install.cmake",
-		"/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard/cmake_install.cmake"
+		"/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard/cmake_install.cmake",
+		"/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/libs/telemetry_core/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

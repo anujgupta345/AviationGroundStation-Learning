@@ -64,18 +64,22 @@ CMAKE_BINARY_DIR = /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build
 
 # The main recursive "all" target.
 all: apps/dashboard/all
+all: libs/telemetry_core/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: apps/dashboard/codegen
+codegen: libs/telemetry_core/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: apps/dashboard/preinstall
+preinstall: libs/telemetry_core/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: apps/dashboard/clean
+clean: libs/telemetry_core/clean
 .PHONY : clean
 
 #=============================================================================
@@ -96,6 +100,25 @@ apps/dashboard/preinstall:
 # Recursive "clean" directory target.
 apps/dashboard/clean: apps/dashboard/CMakeFiles/aviation.dir/clean
 .PHONY : apps/dashboard/clean
+
+#=============================================================================
+# Directory level rules for directory libs/telemetry_core
+
+# Recursive "all" directory target.
+libs/telemetry_core/all:
+.PHONY : libs/telemetry_core/all
+
+# Recursive "codegen" directory target.
+libs/telemetry_core/codegen:
+.PHONY : libs/telemetry_core/codegen
+
+# Recursive "preinstall" directory target.
+libs/telemetry_core/preinstall:
+.PHONY : libs/telemetry_core/preinstall
+
+# Recursive "clean" directory target.
+libs/telemetry_core/clean:
+.PHONY : libs/telemetry_core/clean
 
 #=============================================================================
 # Target rules for target apps/dashboard/CMakeFiles/aviation.dir

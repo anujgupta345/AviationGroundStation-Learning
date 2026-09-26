@@ -1,1 +1,2 @@
 add_executable(aviation main.cpp)
+target_link_libraries(aviation telemetry_core)

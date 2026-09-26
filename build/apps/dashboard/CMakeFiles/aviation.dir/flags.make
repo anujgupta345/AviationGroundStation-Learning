@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/anujgupta/Qt_Gui_App/Aviation_Proj/libs/telemetry_core/include
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
 
