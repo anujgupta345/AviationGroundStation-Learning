@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard//CMakeFiles/progress.marks
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/dashboard/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/dashboard/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/dashboard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/dashboard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named aviation
+# Convenience name for target.
+apps/dashboard/CMakeFiles/aviation.dir/rule:
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/dashboard/CMakeFiles/aviation.dir/rule
+.PHONY : apps/dashboard/CMakeFiles/aviation.dir/rule
 
-# Build rule for target.
-aviation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aviation
+# Convenience name for target.
+aviation: apps/dashboard/CMakeFiles/aviation.dir/rule
 .PHONY : aviation
 
 # fast build rule for target.
 aviation/fast:
-	$(MAKE) $(MAKESILENT) -f apps/dashboard/CMakeFiles/aviation.dir/build.make apps/dashboard/CMakeFiles/aviation.dir/build
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f apps/dashboard/CMakeFiles/aviation.dir/build.make apps/dashboard/CMakeFiles/aviation.dir/build
 .PHONY : aviation/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f apps/dashboard/CMakeFiles/aviation.dir/build.make apps/dashboard/CMakeFiles/aviation.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f apps/dashboard/CMakeFiles/aviation.dir/build.make apps/dashboard/CMakeFiles/aviation.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(MAKE) $(MAKESILENT) -f apps/dashboard/CMakeFiles/aviation.dir/build.make apps/dashboard/CMakeFiles/aviation.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -138,6 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aviation"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -149,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

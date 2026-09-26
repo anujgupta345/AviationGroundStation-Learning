@@ -1,3 +1,5 @@
-/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles/aviation.dir
 /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles/edit_cache.dir
 /Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/CMakeFiles/rebuild_cache.dir
+/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard/CMakeFiles/aviation.dir
+/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard/CMakeFiles/edit_cache.dir
+/Users/anujgupta/Qt_Gui_App/Aviation_Proj/build/apps/dashboard/CMakeFiles/rebuild_cache.dir
